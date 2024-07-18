@@ -1,7 +1,9 @@
 <?php
     while(have_posts()){
         the_post(); ?>
-        <H2>Hello world</H2>
+        <H2><?php the_title(); ?></H2>
+        <?php the_content(); ?>
+        <hr>
         <?php
     }
 ?>
