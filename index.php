@@ -1,7 +1,8 @@
 <?php
     while(have_posts()){
         the_post(); ?>
-        <H2><?php the_title(); ?></H2>
+        <H2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></H2>
+
         <?php the_content(); ?>
         <hr>
         <?php
