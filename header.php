@@ -4,7 +4,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
-       <header class="site-header"></header>
+      <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
           <a href="#"><strong>Fictional</strong> University</a>
@@ -29,4 +29,3 @@
         </div>
       </div>
     </header>
-kk
